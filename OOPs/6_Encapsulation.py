@@ -1,3 +1,4 @@
+#Encapsulation can be describe as wrapping up of data and methods that use the data in a single unit.
 class Person:
     def __init__(self,name,age):
         self.name=name
