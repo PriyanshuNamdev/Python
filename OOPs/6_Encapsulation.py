@@ -1,8 +1,8 @@
 #Encapsulation can be describe as wrapping up of data and methods that use the data in a single unit.
-class Person:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
+class Person:                              #                                 -----
+    def __init__(self,name,age):           #                                     !   wrapping            
+        self.name=name                     #                                     !    up data
+        self.age=age                       #                                 -----           
 
     def info(self):
         print( f"{self.name} is {self.age} years old")
