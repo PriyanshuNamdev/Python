@@ -1,3 +1,5 @@
+#Polymorphism refers to the ability of different objects to share the same method or function name, but with different implementations.
+
 class Player:
     def __init__(self):
         pass
@@ -15,5 +17,7 @@ class Player1(Player):
     
 p1=Player1("Priyanshu","Wizard")
 p1.Exp(50)
+
+
 
         
